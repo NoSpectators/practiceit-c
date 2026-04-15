@@ -18,8 +18,7 @@ void dollarSigns(int i, int numRows);
 void middleStars(int i, int numRows);
 
 int main() { 
-    int i, j, k, l, m, n;
-    int numRows = 10; // arbitrary height
+    int numRows = 20; // arbitrary height
    
     // outer loop based on height
     for (int i = 0; i < numRows; i++) {  
