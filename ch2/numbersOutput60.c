@@ -18,13 +18,13 @@ int main() {
                         printf("|");
                     } else {
                         printf(" ");
-		    }
-		} else {           // line 2
+                    }
+                } else {           // line 2
                     if (k == 10) { // fencepost 
                         printf("0");
                     } else {
                         printf("%d", k);
-		    } 
+                    } 
                 } 
             }
         }
