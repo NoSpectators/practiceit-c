@@ -21,8 +21,8 @@ int main() {
     for (int i = 1; i <= 5; i++) {
         dashes(i); 
         nums(i); 
-	dashes(i);
-	printf("\n");
+        dashes(i);
+        printf("\n");
     }
     return 0;
 }
