@@ -39,8 +39,8 @@ void printGrid(int rows, int cols) {
             printf("%d", j);
             if (j != endVal) { 
                 printf(", ");
-	    }
-	}
+            }
+        }
         printf("\n");
     }
 }

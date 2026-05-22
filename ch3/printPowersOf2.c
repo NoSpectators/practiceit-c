@@ -26,7 +26,7 @@ void printPowersOf2(int maxPower) {
             printf("%d ", currentPower);
         } else {
             printf("%d", currentPower);
-	}
+        }
         currentPower *= 2;
     }
     printf("\n");

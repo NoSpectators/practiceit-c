@@ -45,7 +45,7 @@ void printSquare(int min_val, int max_val) {
                 printf("%d, ", currentNum);
             } else {
                 printf("%d", currentNum); 
-	    }
+            }
         }
         printf("\n");
     }
