@@ -22,10 +22,10 @@ int daysInMonth(int month) {
     switch (month) {
         case 4:
         case 6:  
-	case 9:
+        case 9:
         case 11: 
             return 30;
-	case 1:
+        case 1:
         case 3:
         case 5:
         case 7:
