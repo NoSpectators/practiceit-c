@@ -20,10 +20,10 @@ int main() {
 
 int daysInMonth(int month) { 
     switch (month) {
-	case 4:
+        case 4:
         case 6:  
 	case 9:
-	case 11: 
+        case 11: 
             return 30;
 	case 1:
         case 3:
@@ -33,9 +33,9 @@ int daysInMonth(int month) {
         case 10:
         case 12:
             return 31;
-	case 2:
+        case 2:
             return 28;
-	default:
+        default:
             // invalid input 
             return -1;
     }
