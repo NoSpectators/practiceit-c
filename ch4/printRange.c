@@ -29,7 +29,7 @@ void printRange(int a, int b) {
 
 	if (i == b) { // manually stop infinite loop
             break;
-	}
+        }
     }
     printf("\n");
 }
