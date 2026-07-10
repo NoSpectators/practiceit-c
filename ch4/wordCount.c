@@ -49,9 +49,9 @@ int wordCount(const char *str) {
                 inWord = 1;
             } 
         //  if character is not a space
-	} else {
+        } else {
             inWord = 0;
-	}
+        }
     }
     return total;
 }
