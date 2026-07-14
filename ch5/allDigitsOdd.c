@@ -33,7 +33,7 @@ int allDigitsOdd(long int num) {
         digit = n % 10; // last digit in num
         if (digit % 2 == 0) { 
             return 0; 
-	}
+        }
         n /= 10; //  slice last digit
     } while (n > 0);
     
