@@ -37,7 +37,7 @@ int swapDigitPairs(int num) {
         digit1 = temp % 10;          // ones digit: (e.g., 1234, 1234 / 10 = 4)
         digit2 = (temp / 10) % 10;   // tens digit: (e.g., 1234 / 10 = 123; 123 mod 10 = 3)
         printf("digit 1: %d\n", digit1);
-	printf("digit 2: %d\n", digit2);
+        printf("digit 2: %d\n", digit2);
         // swap them and place them in the result
         // (e.g., (d1=4, d2=3), this math creates '43': 4*10+3=43.
         // then, 43*100= 4300.
